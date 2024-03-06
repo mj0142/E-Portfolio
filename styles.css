@@ -160,7 +160,7 @@ nav {
 
 /* TECH - STACK */
 
-.language__img {
+.language__img  {
     width: 100%;
     max-width: 100px;
 }
@@ -171,8 +171,8 @@ nav {
 
 .language__img--wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content: center; 
+    align-items: center;
     padding: 25px 16px;
 }
 
