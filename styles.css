@@ -160,7 +160,7 @@ nav {
 
 /* TECH - STACK */
 
-.language__img  {
+.language__img{
     width: 100%;
     max-width: 100px;
     transition: all 300ms ease;
@@ -174,15 +174,11 @@ nav {
 
 .language {
     width: 25%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-
 }
 
 .language__img--wrapper {
-    display: flex;
-    justify-content: center; 
+    display: flex;   
+    justify-content: center;
     align-items: center;
     padding: 25px 16px;
 }
@@ -191,16 +187,4 @@ nav {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-}
-
-.language__name {
-    position: absolute;
-    bottom: 0;
-    transform: scale(0);
-    transition: all 300ms;
-}
-
-.language:hover .language__name {
-    transform: scale(1);
-    opacity: 1;
 }
